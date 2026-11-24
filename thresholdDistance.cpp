@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int findTheCity(int n, vector<vector<int>>& edges, int distaceThreshold) {
+    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
 // We will start by thinking the distances are very large
 // Large number since we don't know the path yet
     vector<vector<int>> distance(n, vector<int>(n, 1000000));
